@@ -1,10 +1,25 @@
-fun main() {
-    println("Hello World!")
+import java.util.Scanner // Import the Scanner.
+import kotlin.system.exitProcess
 
-    // Have the user pick between movie or t.v. quotes.
+fun main() {
+    // Define the input getter using the Scanner.
+    val input = Scanner(System.`in`)
+
+    // Welcome message.
+    println("Welcome to the quotes quiz!")
+    println()
+
+    // Prompt the user to pick between movie or t.v. quotes.
+    print("Would you like to do movie quotes or television quotes? Type M for movies or T for Television: ")
+    val typeInput: Char = input.next()[0]
 
     // Have the user pick a duration for the quiz.
+    print("How long will the quiz be in seconds? ")
+    val quizDuration = input.nextInt()
+
     // Have the user pick a time limit for each question.
+    print("How much time will be given for each question in seconds? ")
+    val questionDuration = input.nextInt()
 
     // Start the quiz, and continue until time runs out.
 
@@ -12,5 +27,7 @@ fun main() {
     // You only get one guess for each quote.
     // The program counts how many questions you get right, and total questions.
 
-    // After the quiz has run, the user presses ENTER to exit the program.
+    // After the quiz has run, the program prints a goodbye message and ends.
+    println()
+    print("The quiz is over!")
 }
