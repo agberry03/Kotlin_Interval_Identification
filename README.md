@@ -20,8 +20,8 @@
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Programiz Kotlin Tutorial](https://www.programiz.com/kotlin-programming)
+- [Kotlin YouTube Tutorial](https://www.youtube.com/watch?v=F9UC9DY-vIU)
 
 # Future Work
 
