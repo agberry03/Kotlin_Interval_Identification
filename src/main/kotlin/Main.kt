@@ -1,9 +1,15 @@
 import java.util.Scanner // Import the Scanner.
-import kotlin.system.exitProcess
+import java.io.File // Import file reading.
 
 fun main() {
     // Define the input getter using the Scanner.
     val input = Scanner(System.`in`)
+
+    // Print out all movie and tv quote data to the terminal.
+    val fileName = "src/test/quotes.json" // json file with all the quote data.
+    val lines:List<String> = File(fileName).readLines()
+    lines.forEach {line -> println(line)
+    }
 
     // Welcome message.
     println("Welcome to the quotes quiz!")

@@ -22,6 +22,8 @@
 
 - [Programiz Kotlin Tutorial](https://www.programiz.com/kotlin-programming)
 - [Kotlin YouTube Tutorial](https://www.youtube.com/watch?v=F9UC9DY-vIU)
+- [Movie/tv quotes GitHub repository by Nikhil N Namal (I copied his data.json file to quotes.json)](https://github.com/NikhilNamal17/popular-movie-quotes)
+- [How to read a json file in Kotlin](https://www.youtube.com/watch?v=KOqZVJLNKXA)
 
 # Future Work
 
